@@ -1,0 +1,17 @@
+#include <stdio.h>
+/**
+ ** main - Solve me
+ ** Return: Always 0.
+ **/
+int main(void)
+{
+  int a[5];
+  int *p;
+  int *p2;
+  *a = 98;
+  *(a + 1) = 198;
+  *(a + 2) = 298;
+  a[3] = 398;
+  *(a + 4) = 498;
+  p = a +1;
+
